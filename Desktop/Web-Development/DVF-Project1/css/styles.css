@@ -1,0 +1,499 @@
+/* FontAwesome for working BootSnippet :> */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+    font-family: Ubuntu;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.card-text {
+  font-family: Montserrat;
+}
+
+.team-thanks {
+  font-family: Montserrat;
+}
+
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+    font-family: Playfair-display;
+}
+
+.frontside .card .card-body img {
+    width: 240px;
+    height: 120px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+/* Font Awesome Icons */
+
+.fa-users {
+  margin-bottom: 50px;
+  color: #007b5e;
+}
+
+.fa-desktop {
+  margin-top: 60%;
+  color: blue;
+}
+
+/* Nav Section */
+
+#nav-main {
+  background-color: #007b5e;
+}
+
+.navbar {
+  padding: 0 0 1.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 100px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat"
+}
+
+/* Title Section */
+
+.title-main {
+  text-align: center;
+}
+
+.title-welcome {
+  padding-top: 15px;
+  padding-bottom: 60px;
+  font-family: Ubuntu;
+}
+
+/* Home Section */
+
+#home-main {
+  background-color: #eee;
+  font-family: Ubuntu;
+  /* background-image: url(http://hoosickvalley.com/wp-content/uploads/2015/06/Ichabod-Crane-Gym.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+#home-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 3rem;
+}
+
+#description-image {
+  height: 300px;
+}
+
+.description-game h2 {
+  font-family: Montserrat;
+  /* text-transform: uppercase; */
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.description-info {
+  font-family: Playfair-display;
+  font-size: 1.15rem;
+}
+
+.description-scholarship h2 {
+  font-family: Montserrat;
+  /* text-transform: uppercase; */
+}
+
+.description-scholarship {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.15rem;
+}
+
+.scholarship-info {
+  font-family: Playfair-display;
+}
+
+.scholarship-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 3rem;
+}
+
+.home {
+  text-align: center;
+  color: black;
+}
+
+.description-info {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.description-game {
+  color: black;
+  background-color: #eee;
+  /* height: 300px;
+  width: 100px; */
+  padding-right: 9%;
+  padding-left: 9%;
+}
+
+.btn {
+  margin-top: 5%;
+}
+
+.help-button1 {
+  margin-right: 7%;
+}
+
+.help-button1:hover {
+  background-color: #85bb65;
+}
+
+.help-button2:hover {
+  background-color: #229CE4;
+}
+
+/* Scholarship Section */
+
+#scholarship-main {
+  text-align: center;
+  background-color: #eee;
+}
+
+
+h2 {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+/* Contribution Header Section */
+
+.contribution-header {
+  background-color: #eee;
+  text-align: center;
+  padding: 0;
+}
+
+#contribution-title-header {
+  font-family: Ubuntu;
+  font-color: white;
+}
+
+#contribution-title {
+  padding: 0;
+}
+
+/* Contribution Section */
+
+#contribution-main {
+  background-image: url(http://hoosickvalley.com/wp-content/uploads/2015/06/Ichabod-Crane-Gym.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-color: #007b5e; */
+  text-align: center;
+}
+
+#carouselExampleIndicators {
+  height: 400px;
+}
+
+#carousel-title {
+  color: white;
+  font-size: 3rem;
+  font-family: Montserrat;
+  /* padding-top: 2rem; */
+  margin-bottom: 9rem;
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+
+/* #carousel-money {
+  color: white;
+  font-size: 2rem;
+  font-family: Montserrat;
+  margin-top: 3rem;
+} */
+
+#carousel-donation {
+  color: white;
+  font-size: 8rem;
+  font-family: Montserrat;
+  /* padding-top: 5rem; */
+  /* padding-bottom: 5rem; */
+}
+
+/* Archives Section */
+
+#funky {
+  height: 190.656px;
+}
+
+#archives-main {
+  text-align: center;
+  padding-left: 110px;
+  padding-top: 100px;
+  font-family: Montserrat;
+}
+
+#mase {
+  height: 190.656px;
+}
+
+
+/* Thank You Section */
+
+.col-thanks {
+  margin: auto;
+}
+
+#thanks-main {
+  background-color: #ffffff;
+}
+
+.thanks-title {
+  font-family: Montserrat;
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+}
+
+.column-1 {
+  text-align: center;
+}
+
+.column-2 {
+  text-align: center;
+}
+
+.team-container {
+  text-align: center;
+}
+/* Footer Section */
+
+#footer-main {
+  text-align: center;
+  height: 2rem;
+}
+
+/* 2017 Game */
+
+/* Jumbotron Section */
+
+.jumbotron-heading {
+  color: #007b5e;
+  font-family: Montserrat;
+  text-transform: uppercase;
+}
+
+.recap-info {
+  font-family: Playfair-display;
+}
+
+
+/* Title Section */
+
+#title {
+  text-align: center;
+  font-family: Montserrat;
+  color: white;
+  background-color: #007b5e;
+}
+
+/* Recap Section */
+
+.recap {
+  text-align: center;
+}
+
+#recap-title {
+  font-family: Montserrat;
+}
+
+#recap-info {
+  font-family: Ubuntu;
+}
+
+.recap-main {
+  text-align: center;
+  padding: 0 5%;
+}
+
+/* Table Section */
+
+.table {
+  background-color: #eee;
+  font-family: Ubuntu;
+}
+
+#box-title {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+/* Gallery Section */
+
+.bd-example {
+  height: 200px;
+  margin: 0 40px 40px 40px;
+}
+
+/* Modal Section */
+
+.modal-div {
+  text-align: center;
+}
+
+.modal-body {
+  font-family: Montserrat;
+}
+
+.modal-btn {
+  font-family: Montserrat;
+}
+
+#lonzo {
+  width: 100%;
+}
+
+
+/* 2019 Page */
+
+/* Date Section */
